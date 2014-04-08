@@ -1,5 +1,6 @@
 function DMNO_plot_dct(in1s,dm1s,in4s,dm4s,in1n,dm1n,in4n,dm4n)
 figure
+
 z1 = 1.*ones(size(in1s,1),1);
 z2 = 2.*(ones(size(dm1s,1),1));
 z3 = 3.*(ones(size(in4s,1),1));
@@ -95,14 +96,14 @@ group = in4s;
 plot(z3,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z4,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z5,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z6,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z7,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z8,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z5,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z6,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z7,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z8,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 2;
 
@@ -114,14 +115,14 @@ group = in4s;
 plot(z11,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z12,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z13,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z14,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z15,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z16,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z13,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z14,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z15,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z16,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 3;
 
@@ -133,14 +134,14 @@ group = in4s;
 plot(z19,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z20,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z21,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z22,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z23,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z24,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z21,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z22,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z23,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z24,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 4;
 
@@ -152,14 +153,14 @@ group = in4s;
 plot(z27,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z28,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z29,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z30,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z31,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z32,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z29,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z30,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z31,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z32,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 5;
 
@@ -171,14 +172,14 @@ group = in4s;
 plot(z35,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z36,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z37,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z38,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z39,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z40,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z37,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z38,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z39,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z40,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 6;
 
@@ -190,14 +191,14 @@ group = in4s;
 plot(z43,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z44,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z45,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z46,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z47,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z48,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z45,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z46,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z47,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z48,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 7;
 
@@ -209,14 +210,14 @@ group = in4s;
 plot(z51,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z52,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z53,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z54,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z55,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z56,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z53,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z54,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z55,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z56,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 genenum = 8;
 
@@ -228,18 +229,20 @@ group = in4s;
 plot(z59,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor3,'MarkerEdgeColor',facecolor3,'LineStyle','none')
 group = dm4s;
 plot(z60,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor4,'MarkerEdgeColor',facecolor4,'LineStyle','none')
-group = in1n;
-plot(z61,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
-group = dm1n;
-plot(z62,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
-group = in4n;
-plot(z63,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
-group = dm4n;
-plot(z64,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
+% group = in1n;
+% plot(z61,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor5,'MarkerEdgeColor',facecolor5,'LineStyle','none')
+% group = dm1n;
+% plot(z62,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor6,'MarkerEdgeColor',facecolor6,'LineStyle','none')
+% group = in4n;
+% plot(z63,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor7,'MarkerEdgeColor',facecolor7,'LineStyle','none')
+% group = dm4n;
+% plot(z64,group(:,genenum),'Marker',marker,'MarkerFaceColor',facecolor8,'MarkerEdgeColor',facecolor8,'LineStyle','none')
 
 ylim([-30 10])
 set(gca,'YScale','linear')
 ylabel('$-\Delta Ct$','interpreter','latex','FontSize',13)
 set(gca,'XTick',[4.5,14.5,24.5,34.5,44.5,54.5,64.5 74.5])
-set(gca,'XTickLabel',{'EF1_3','EF1_m','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
+set(gca,'XTickLabel',{'EF1-5','EF1-3','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
+
+    
 end

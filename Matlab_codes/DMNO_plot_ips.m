@@ -70,7 +70,7 @@ line([genenum-barw genenum+barw],[mean(ipsvals(4:6,8)) mean(ipsvals(4:6,8))],'Li
 ylabel('Ct')
 title('Interplate standards')
 set(gca,'XTick',[1 2 3 4 5 6 7 8])
-set(gca,'XTickLabel',{'EF1-m','EF1-3','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
+set(gca,'XTickLabel',{'EF1-5','EF1-3','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
 % ylim([0 35])
 % xlim([0 6])
 end

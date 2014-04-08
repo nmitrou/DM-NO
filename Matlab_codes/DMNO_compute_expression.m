@@ -40,5 +40,8 @@ DMNO_plot_ips(ipsvals)
 %% plot group ct values
 DMNO_plot_dct(in1s,dm1s,in4s,dm4s,in1n,dm1n,in4n,dm4n)
 legend('IN1s','DM1s','IN4s','DM4s','IN1n','DM1n','IN4n','DM4n','Location','SouthWest')
+ylim([-23 3])
 %% plot surgical vs nonsurgical animals
-DMNO_plot_sxVSns(dctvals(1:32),dctvals(33:end))
+sxv = dctvals(1:32,:);
+nsv = dctvals(33:end,:);
+DMNO_plot_sxVSns(sxv,nsv)

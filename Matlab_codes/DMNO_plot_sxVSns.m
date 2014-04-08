@@ -49,9 +49,9 @@ line([mean(x8)-barw mean(x8)+barw],[mean(nsvals(:,genenum)) mean(nsvals(:,genenu
 
 genenum = 4;
 plot(x9,sxvals(:,genenum),'Marker',marker,'LineStyle','none','MarkerFaceColor','k','MarkerEdgeColor','k'); hold on
-plot(x10,nsvals(:,genenum),'Marker','o','LineStyle','none','MarkerFaceColor','r','MarkerEdgeColor','r');
+% plot(x10,nsvals(:,genenum),'Marker','o','LineStyle','none','MarkerFaceColor','r','MarkerEdgeColor','r');
 line([mean(x9)-barw mean(x9)+barw],[mean(sxvals(:,genenum)) mean(sxvals(:,genenum))],'LineWidth',2,'Color','k')
-line([mean(x10)-barw mean(x10)+barw],[mean(nsvals(:,genenum)) mean(nsvals(:,genenum))],'LineWidth',2,'Color','r')
+% line([mean(x10)-barw mean(x10)+barw],[mean(nsvals(:,genenum)) mean(nsvals(:,genenum))],'LineWidth',2,'Color','r')
 
 genenum = 5;
 plot(x11,sxvals(:,genenum),'Marker',marker,'LineStyle','none','MarkerFaceColor','k','MarkerEdgeColor','k'); hold on
@@ -77,8 +77,18 @@ plot(x18,nsvals(:,genenum),'Marker','o','LineStyle','none','MarkerFaceColor','r'
 line([mean(x17)-barw mean(x17)+barw],[mean(sxvals(:,genenum)) mean(sxvals(:,genenum))],'LineWidth',2,'Color','k')
 line([mean(x18)-barw mean(x18)+barw],[mean(nsvals(:,genenum)) mean(nsvals(:,genenum))],'LineWidth',2,'Color','r')
 
+    % place markers for significance
+    groups={[1,2],[4,5],[7,8],[13,14],[16,17],[19,20],[22,23]};
+    H=sigstar(groups,[0.982 0.999 0.0000038 0.00000032 0.0027 0.000000025 0.00000034]);
+%         Y=get(H(1,1),'YData'); Y(4)=1.75; set(H(1,1),'YData',Y);
+%         Y=get(H(2,1),'YData'); Y(4)=0.6; set(H(2,1),'YData',Y);
+%         Y=get(H(3,1),'YData'); Y(4)=0.826; set(H(3,1),'YData',Y);
+%         Y=get(H(3,1),'YData'); Y(1)=0.428; set(H(3,1),'YData',Y);
+% %         Y=get(H(4,1),'YData'); Y(1)=2.6; set(H(4,1),'YData',Y);
+% %         Y=get(H(5,1),'YData'); Y(4)=1.8; set(H(5,1),'YData',Y);
+
 legend('Surgery','No Surgery')
-ylabel('Ct value')
+ylabel('$-\Delta$ Ct','interpreter','latex','FontSize',13)
 set(gca,'XTick',[1.5 4.5 7.5 10.5 13.5 16.5 19.5 22.5])
-set(gca,'XTickLabel',{'EF1-m','EF1-3','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
+set(gca,'XTickLabel',{'EF1-5','EF1-3','HMBS','NOS2','NOS3','Cx37','Cx43','COX2'})
 end
